@@ -1,0 +1,187 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+.link{
+  color: black;
+  text-decoration: none;
+  cursor: default;
+}
+.list{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  width:200px; 
+  border:1px solid black; 
+  border-radius:3px;
+  margin:20px;
+  padding:10px;
+  cursor:pointer
+}
+.list-pages{
+  margin: 100px;
+  display:flex;
+  flex-direction: column;
+  width:200px;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+.update{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  margin:10px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  
+}
+.input{
+  width: 80%;
+  margin: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page{
+  background-color: silver;
+  padding: 5%;
+}
+.today-page{
+
+}
+.today-grafik{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: aliceblue;
+  width: 33%;
+  height: 300px;
+  border-radius: 10px;
+  background-image: url(/public/images/sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* texanqi div */
+.location{
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  height: 23%;
+}
+  .loc-dives{
+    font-size: 22px;
+    font-weight: bolder;
+  }
+  .loc-dives-icon{
+    font-size: 2em;
+    margin-right: 10px;
+  }
+/* astichani div */
+
+.temp{
+  width: 95%;
+  height: 35%;
+  display: flex;
+  flex-wrap: wrap;
+}
+  .temp-div{
+    width: 30%;
+    height: 40%;
+    font-size: 3em;
+    display: flex;
+    justify-content: space-around;
+    /* font-weight: bolder; */
+  }
+  .feels-like{
+    width: 65%;
+    height: 40%;
+
+  }
+  .wind{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    margin-top: 1em;
+    /* justify-content: space-around; */
+
+  }
+    .wind-div{
+      display: flex;
+      width: 25%;
+    }
+      .wind-div-child{
+        margin-right: 5px;
+      }
+/* jameri */
+.hours{
+  width: 95%;
+  height: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+  .hour-dives{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+.week-page{
+  margin: 5px;
+  display:flex;
+  justify-content: space-evenly;
+  background-color: white;
+  width: 75%;
+  height: 200px;
+  border-radius: 10px;
+
+}
+  .week-day{
+    display: flex;
+    width: 14%;
+    flex-direction: column;
+    font-size:larger;
+    justify-content:space-evenly;
+    align-items: center;
+    cursor: pointer;
+  }
+  .week-day:hover{
+    outline: 1px solid silver;
+  }
+  .week-day-icon{
+    font-size: xx-large;
+  }
+.fixed-page{
+  margin: 5px;
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+}
