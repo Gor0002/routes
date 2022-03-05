@@ -1,6 +1,5 @@
-
 import { createStore, applyMiddleware, compose } from 'redux';
-import reducers from 'store/reducers';
+import reducers from './reducers';
 
 let middlewares = [];
 // middlewares.push(updateWheelInfo);
@@ -20,11 +19,3 @@ if (process.env.NODE_ENV !== 'production') {
 window.store = store;
 
 export default store;
-
-
-
-
-// import { createStore } from 'redux'
-// import reducer from './reducers'
-
-// export const store = createStore(reducer);

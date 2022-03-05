@@ -1,6 +1,7 @@
 const BaseUrl = "http://localhost:3000/posts/";
 const PostControler = {};
 
+
 PostControler.getList = async () =>{
     return fetch(BaseUrl).then(res => res.json())
 }
