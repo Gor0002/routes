@@ -12,7 +12,6 @@ export default function Root() {
   return (
       <Provider store={store}>
           <Home />
-        {/* <div>Home</div> */}
       </Provider>
   )
 }
